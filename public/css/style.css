@@ -1,0 +1,62 @@
+/* body{
+    background-color: aqua;
+} */
+.f-info-links{
+   text-align: center;
+}
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 2rem;
+    background-color: #ebebeb;
+    margin-bottom: 0%;
+    
+}
+.f-info-socials{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+.f-info-socials  i{
+    font-size: 20px;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0% !important;
+}
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.listing-link{
+    text-decoration: none;
+}
+/* card Effect */
+
+.row.a img{
+    opacity: 0;
+}
+.row a img:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+.navbar-brand{
+    font-size: 30px;
+    color: red;
+}
